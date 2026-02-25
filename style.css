@@ -32,3 +32,27 @@ font-size: 18px
 	;
 	font-weight:bold;
 }
+
+#message-box {
+	padding: 20px
+	;
+	
+	background-color: lightyellow;
+	border: 2px solid #ccc
+	;
+	border-radius: 8px
+	;
+	font-size: 20px
+	;
+text-align: center; 
+}
+/* This class is added by JavaScript when the button is clicked */
+.success-box {
+border-color: green;
+font-weight: bold; }
+#magic-button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+}

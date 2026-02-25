@@ -1,1 +1,34 @@
+	.my-box {
+	/* Text */
+	color: #333333; /* text color */
+	font-size: 16px; /* text size */
+	font-family: Arial, sans-serif;
+	text-align: center;
+	/* Background */
+	background-color: #f0f0f0;
+	/* Size */
+	width: 200px;
+	height: 100px;
+	/* Spacing */
+	padding: 10px; /* inside space */
+	margin: 20px auto; /* outside space (auto = centered) */
+	/* Border */
+	border: 1px solid #ccc;
+	border-radius: 8px; /* rounded corners */
+}
 
+/* Target all <p> tags */ p {
+color: darkblue;
+font-size: 18px
+;
+
+}
+/* Target any element with class="highlight" */
+.highlight {
+	background-color: yellow; }
+	/* Target the element with id="page-title" */
+	#page-title {
+	font-size: 36px
+	;
+	font-weight:bold;
+}
